@@ -71,7 +71,7 @@ group :test do
   gem 'factory_girl_rails', '~> 1.3.0'
   gem 'pickle'
   gem 'xpath', '~> 0.1.4'
-  gem 'capybara'
+  gem 'capybara', '>= 1.1.2'
   gem 'database_cleaner'
   gem 'shoulda-matchers'
 
