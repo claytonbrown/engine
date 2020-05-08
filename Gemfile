@@ -4,7 +4,7 @@ source :rubygems
 
 gem 'rake', '0.9.2'
 
-gem 'rails', '3.0.12'
+gem 'rails', '4.0.0'
 
 gem 'warden'
 gem 'devise', '~>1.5.0'
@@ -32,7 +32,7 @@ gem 'custom_fields', '1.0.0.beta.25'
 gem 'cancan'
 gem 'fog', '0.8.2'
 gem 'mimetype-fu'
-gem 'actionmailer-with-request', :require => 'actionmailer_with_request'
+gem 'actionmailer-with-request', '>= 0.3.0'
 gem 'heroku', '2.19.1'
 gem 'httparty', '0.7.8'
 gem 'RedCloth', '4.2.9'
@@ -51,7 +51,7 @@ group :development do
 
   gem 'rspec-rails', '2.6.1' # in order to have rspec tasks and generators
 
-  gem 'rspec-cells'
+  gem 'rspec-cells', '>= 0.1.3'
 end
 
 group :test, :development do
