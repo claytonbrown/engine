@@ -69,7 +69,7 @@ group :test do
   gem 'growl-glue'
   gem 'rspec-rails', '2.6.1'
   gem 'factory_girl_rails', '~> 1.3.0'
-  gem 'pickle'
+  gem 'pickle', '>= 0.4.10'
   gem 'xpath', '~> 0.1.4'
   gem 'capybara'
   gem 'database_cleaner'
