@@ -4,7 +4,7 @@ source :rubygems
 
 gem 'rake', '12.3.3'
 
-gem 'rails', '5.2.4.3'
+gem 'rails', '6.0.3.5'
 
 gem 'warden', '>= 1.1.0'
 gem 'devise', '~> 4.7.1'
@@ -24,7 +24,7 @@ gem 'formtastic', '~> 1.2.4'
 gem 'inherited_resources', '~> 1.1.2'
 
 gem 'rmagick', '2.12.2', :require => 'RMagick'
-gem 'carrierwave', '1.0.0'
+gem 'carrierwave', '1.3.2'
 gem 'dragonfly', '~> 1.0.7'
 gem 'rack-cache', '>= 1.2', :require => 'rack/cache'
 
