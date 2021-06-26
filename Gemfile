@@ -4,7 +4,7 @@ source :rubygems
 
 gem 'rake', '12.3.3'
 
-gem 'rails', '5.2.4.3'
+gem 'rails', '4.0.0'
 
 gem 'warden', '>= 1.1.0'
 gem 'devise', '~> 4.7.1'
