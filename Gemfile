@@ -4,7 +4,7 @@ source :rubygems
 
 gem 'rake', '12.3.3'
 
-gem 'rails', '5.2.4.3'
+gem 'rails', '5.2.6.2'
 
 gem 'warden', '>= 1.1.0'
 gem 'devise', '~> 4.7.1'
@@ -15,7 +15,7 @@ gem 'bson', '~> 3.0.4'
 gem 'bson_ext', '~> 1.3.1'
 gem 'mongoid', '~> 6.0.0'
 gem 'locomotive_mongoid_acts_as_tree', '0.1.5.8', :require => 'mongoid_acts_as_tree'
-gem 'kaminari', '>= 1.2.1'
+gem 'kaminari', '>= 0.13.0'
 
 gem 'haml', '5.0.0'
 gem 'sass', '3.1.2'
