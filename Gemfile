@@ -30,7 +30,7 @@ gem 'rack-cache', '>= 1.2', :require => 'rack/cache'
 
 gem 'custom_fields', '2.10.0'
 gem 'cancan'
-gem 'fog', '1.5.0'
+gem 'fog', '0.8.2'
 gem 'mimetype-fu'
 gem 'actionmailer-with-request', '>= 0.3.0', :require => 'actionmailer_with_request'
 gem 'heroku', '3.99.4'
@@ -41,7 +41,7 @@ gem 'rubyzip', '>= 1.3.0'
 gem 'locomotive_jammit-s3', :require => 'jammit-s3'
 gem 'SystemTimer', :platforms => :ruby_18
 gem 'cells', '3.8.7'
-gem 'sanitize', '>= 4.6.3'
+gem 'sanitize', '>= 2.0.5'
 gem 'highline'
 
 # The rest of the dependencies are for use when in the locomotive dev environment
