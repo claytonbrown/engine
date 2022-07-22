@@ -13,7 +13,7 @@ gem 'devise_bushido_authenticatable', '1.0.0', :require => 'devise_cas_authentic
 gem 'mongo', '~> 1.3.1'
 gem 'bson', '~> 3.0.4'
 gem 'bson_ext', '~> 1.3.1'
-gem 'mongoid', '~> 6.0.0'
+gem 'mongoid', '~> 2.0.2'
 gem 'locomotive_mongoid_acts_as_tree', '0.1.5.8', :require => 'mongoid_acts_as_tree'
 gem 'kaminari', '>= 1.2.1'
 
@@ -28,7 +28,7 @@ gem 'carrierwave', '1.0.0'
 gem 'dragonfly', '~> 1.0.7'
 gem 'rack-cache', '>= 1.2', :require => 'rack/cache'
 
-gem 'custom_fields', '2.10.0'
+gem 'custom_fields', '2.1.0'
 gem 'cancan'
 gem 'fog', '1.5.0'
 gem 'mimetype-fu'
