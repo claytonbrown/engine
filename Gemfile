@@ -41,7 +41,7 @@ gem 'rubyzip', '>= 1.3.0'
 gem 'locomotive_jammit-s3', :require => 'jammit-s3'
 gem 'SystemTimer', :platforms => :ruby_18
 gem 'cells', '3.8.7'
-gem 'sanitize', '>= 4.6.3'
+gem 'sanitize', '>= 2.0.5'
 gem 'highline'
 
 # The rest of the dependencies are for use when in the locomotive dev environment
