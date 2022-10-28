@@ -7,7 +7,7 @@ gem 'rake', '12.3.3'
 gem 'rails', '5.2.4.3'
 
 gem 'warden', '>= 1.1.0'
-gem 'devise', '~> 4.7.1'
+gem 'devise', '~> 1.5.3'
 gem 'devise_bushido_authenticatable', '1.0.0', :require => 'devise_cas_authenticatable'
 
 gem 'mongo', '~> 1.3.1'
@@ -25,7 +25,7 @@ gem 'inherited_resources', '~> 1.1.2'
 
 gem 'rmagick', '2.12.2', :require => 'RMagick'
 gem 'carrierwave', '1.0.0'
-gem 'dragonfly', '~> 1.0.7'
+gem 'dragonfly', '~> 0.9.9'
 gem 'rack-cache', '>= 1.2', :require => 'rack/cache'
 
 gem 'custom_fields', '2.10.0'
