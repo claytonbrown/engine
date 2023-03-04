@@ -28,7 +28,7 @@ gem 'carrierwave', '1.0.0'
 gem 'dragonfly', '~> 1.0.7'
 gem 'rack-cache', '>= 1.2', :require => 'rack/cache'
 
-gem 'custom_fields', '2.10.0'
+gem 'custom_fields', '2.13.0'
 gem 'cancan'
 gem 'fog', '1.5.0'
 gem 'mimetype-fu'
