@@ -25,12 +25,12 @@ gem 'inherited_resources', '~> 1.1.2'
 
 gem 'rmagick', '2.12.2', :require => 'RMagick'
 gem 'carrierwave', '1.0.0'
-gem 'dragonfly', '~> 1.0.7'
+gem 'dragonfly', '~> 1.4.0'
 gem 'rack-cache', '>= 1.2', :require => 'rack/cache'
 
 gem 'custom_fields', '2.10.0'
 gem 'cancan'
-gem 'fog', '1.5.0'
+gem 'fog', '0.9.0'
 gem 'mimetype-fu'
 gem 'actionmailer-with-request', '>= 0.3.0', :require => 'actionmailer_with_request'
 gem 'heroku', '3.99.4'
@@ -41,7 +41,7 @@ gem 'rubyzip', '>= 1.3.0'
 gem 'locomotive_jammit-s3', :require => 'jammit-s3'
 gem 'SystemTimer', :platforms => :ruby_18
 gem 'cells', '3.8.7'
-gem 'sanitize', '>= 4.6.3'
+gem 'sanitize', '>= 2.0.5'
 gem 'highline'
 
 # The rest of the dependencies are for use when in the locomotive dev environment
@@ -63,15 +63,15 @@ group :test, :development do
 end
 
 group :test do
-  gem 'cucumber-rails', '1.2.0', :require => false
+  gem 'cucumber-rails', '1.2.1', :require => false
   gem 'autotest', :platforms => :mri
   gem 'ZenTest', :platforms => :mri
   gem 'growl-glue'
   gem 'rspec-rails', '2.8.0'
   gem 'factory_girl_rails', '~> 1.3.0'
   gem 'pickle', '>= 0.4.10'
-  gem 'xpath', '~> 0.1.4'
-  gem 'capybara', '>= 1.1.2'
+  gem 'xpath', '~> 1.0.0'
+  gem 'capybara', '>= 1.1.3'
   gem 'database_cleaner'
   gem 'shoulda-matchers'
 
