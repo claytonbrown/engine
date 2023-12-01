@@ -24,7 +24,7 @@ gem 'formtastic', '~> 1.2.4'
 gem 'inherited_resources', '~> 1.1.2'
 
 gem 'rmagick', '2.12.2', :require => 'RMagick'
-gem 'carrierwave', '1.0.0'
+gem 'carrierwave', '2.2.5'
 gem 'dragonfly', '~> 1.0.7'
 gem 'rack-cache', '>= 1.2', :require => 'rack/cache'
 
