@@ -49,7 +49,7 @@ gem 'highline'
 group :development do
   gem 'unicorn' , '>= 4.1.1' # Using unicorn_rails instead of webrick (default server)
 
-  gem 'rspec-rails', '2.8.0' # in order to have rspec tasks and generators
+  gem 'rspec-rails', '8.0.0' # in order to have rspec tasks and generators
 
   gem 'rspec-cells', '>= 0.1.3'
 end
@@ -67,7 +67,7 @@ group :test do
   gem 'autotest', :platforms => :mri
   gem 'ZenTest', :platforms => :mri
   gem 'growl-glue'
-  gem 'rspec-rails', '2.8.0'
+  gem 'rspec-rails', '8.0.0'
   gem 'factory_girl_rails', '~> 1.3.0'
   gem 'pickle', '>= 0.4.10'
   gem 'xpath', '~> 0.1.4'
