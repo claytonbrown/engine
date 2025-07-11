@@ -30,7 +30,7 @@ gem 'rack-cache', '>= 1.2', :require => 'rack/cache'
 
 gem 'custom_fields', '2.10.0'
 gem 'cancan'
-gem 'fog', '1.5.0'
+gem 'fog', '1.37.0'
 gem 'mimetype-fu'
 gem 'actionmailer-with-request', '>= 0.3.0', :require => 'actionmailer_with_request'
 gem 'heroku', '3.99.4'
@@ -63,7 +63,7 @@ group :test, :development do
 end
 
 group :test do
-  gem 'cucumber-rails', '1.2.0', :require => false
+  gem 'cucumber-rails', '3.0.0', :require => false
   gem 'autotest', :platforms => :mri
   gem 'ZenTest', :platforms => :mri
   gem 'growl-glue'
