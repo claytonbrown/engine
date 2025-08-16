@@ -4,7 +4,7 @@ source :rubygems
 
 gem 'rake', '12.3.3'
 
-gem 'rails', '5.2.4.3'
+gem 'rails', '7.1.5.2'
 
 gem 'warden', '>= 1.1.0'
 gem 'devise', '~> 4.7.1'
@@ -32,7 +32,7 @@ gem 'custom_fields', '2.10.0'
 gem 'cancan'
 gem 'fog', '1.5.0'
 gem 'mimetype-fu'
-gem 'actionmailer-with-request', '>= 0.3.0', :require => 'actionmailer_with_request'
+gem 'actionmailer-with-request', '>= 0.4.0', :require => 'actionmailer_with_request'
 gem 'heroku', '3.99.4'
 gem 'httparty', '0.10.0'
 gem 'RedCloth', '4.3.0'
