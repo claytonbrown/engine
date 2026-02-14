@@ -13,7 +13,7 @@ gem 'devise_bushido_authenticatable', '1.0.0', :require => 'devise_cas_authentic
 gem 'mongo', '~> 1.3.1'
 gem 'bson', '~> 3.0.4'
 gem 'bson_ext', '~> 1.3.1'
-gem 'mongoid', '~> 6.0.0'
+gem 'mongoid', '~> 7.6.1'
 gem 'locomotive_mongoid_acts_as_tree', '0.1.5.8', :require => 'mongoid_acts_as_tree'
 gem 'kaminari', '>= 1.2.1'
 
@@ -28,7 +28,7 @@ gem 'carrierwave', '1.0.0'
 gem 'dragonfly', '~> 1.0.7'
 gem 'rack-cache', '>= 1.2', :require => 'rack/cache'
 
-gem 'custom_fields', '2.10.0'
+gem 'custom_fields', '2.13.0'
 gem 'cancan'
 gem 'fog', '1.5.0'
 gem 'mimetype-fu'
@@ -36,7 +36,7 @@ gem 'actionmailer-with-request', '>= 0.3.0', :require => 'actionmailer_with_requ
 gem 'heroku', '3.99.4'
 gem 'httparty', '0.10.0'
 gem 'RedCloth', '4.3.0'
-gem 'delayed_job_mongoid', '2.1.0'
+gem 'delayed_job_mongoid', '1.1.0'
 gem 'rubyzip', '>= 1.3.0'
 gem 'locomotive_jammit-s3', :require => 'jammit-s3'
 gem 'SystemTimer', :platforms => :ruby_18
